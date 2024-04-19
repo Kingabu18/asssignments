@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Image Links</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            header, nav, main, footer {
+                padding: 20px;
+            }
+            nav ul {
+                list-style-type: none;
+                padding: 0;
+            }
+            nav ul li {
+                display: inline;
+                margin-right: 20px;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+            .grid-container {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+                grid-gap: 20px;
+            }
+            .grid-item {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to Image Links</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#menu">Menu</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="home">
+                <h2>Home</h2>
+                <p>Welcome to our website! Here's an image related to technology:</p>
+                <a href="https://pngtree.com/freebackground/blue-technology-created-future-technology_897813.html" target="_blank">
+                    <img src="https://th.bing.com/th?id=OIP.01esbQZFYf7TCF7LkkOy4AHaJ4&w=216&h=288&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="Technology Image">
+                </a>
+            </section>
+            <section id="gallery">
+                <h2>Gallery</h2>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <a href="https://www.thewowstyle.com/beautiful-nature-images-free-to-download/" target="_blank">
+                            <img src="https://th.bing.com/th?id=OIP.nYEuBjiuwCD6oR2JeVu5DwHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="Nature Image 1">
+                        </a>
+                    </div>
+                    <div class="grid-item">
+                        <a href="https://wallup.net/landscape-nature-tree-forest-woods-river-waterfall/" target="_blank">
+                            <img src="https://th.bing.com/th?id=OIP.XahRQHnmZYdKTkYxKAYHmAHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="Nature Image 2">
+                        </a>
+                    </div>
+                    <div class="grid-item">
+                        <a href="https://www.pexels.com/search/nature/" target="_blank">
+                            <img src="https://th.bing.com/th?id=OIP.Jek3CDQGyU5V2g3mChz8wQHaE-&w=305&h=204&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="Nature Image 3">
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section id="menu">
+                <h2>Menu</h2>
+                <ul>
+                    <li><a href="https://theawesomedaily.com/50-pictures-of-pizza-because-pizza-is-life/" target="_blank">Pizza</a></li>
+                    <li><a href="https://pkhealth786.blogspot.com/2016/01/sushitypes-of-sushi-popular-sushi.html" target="_blank">Sushi</a></li>
+                    <li><a href="https://www.bing.com/images/search?q=burger%20pics&form=IQFRBA&id=C014B6251E85F175BCF60685858FEE0C4E310E23&first=1&disoverlay=1" target="_blank">Burger</a></li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Image Links</p>
+        </footer>
+    </body>    
+</html>
